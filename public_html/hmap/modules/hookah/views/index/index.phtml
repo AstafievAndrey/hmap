@@ -1,0 +1,76 @@
+<?php
+$this->viewLayout('head');
+//var_dump($view);die();
+?>
+<title>Кальянная карта</title>
+<link rel="stylesheet" href="../../../../resourses/public/js/lf/leaflet.css" />
+<link rel="stylesheet" href="../../../../resourses/hookah/css/style.css" />
+<script src="../../../resourses/public/js/lf/leaflet.js"></script>
+<link rel="stylesheet" href="../../../../resourses/hookah/css/index.css" />
+<script src="../../../../resourses/hookah/js/hookah-index-index/hii.js"></script>
+<script>
+$(document).ready(function() {
+    
+    // create a map in the "map" div, set the view to a given place and zoom
+    window.map = L.map('map',{ zoomControl: false }).setView([
+	<?php 
+	    if($view["city"]["count"]===0){
+		echo "60,100";
+	    }else{
+		echo $view["city"]["city"]["city"]["lat"].",".$view["city"]["city"]["city"]["lon"];
+	    }
+	?>], 11).stopLocate();
+
+    // add an OpenStreetMap tile layer
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    
+    //var geomarker = L.marker([0,0]).addTo(map);
+    
+    map.on('click', function(e) {
+        
+    });
+    
+    $("#find").on("click",function(){
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+            alert("Geolocation is not supported by this browser.");
+        }
+    });
+    
+    function showPosition(position) {
+        geomarker.setLatLng([position.coords.latitude, position.coords.longitude]).update();
+    }
+    $("#showHookah").on("click",function(){
+	
+    });
+    $(function () {
+	$('[data-toggle="tooltip"]').tooltip()
+    });
+    adress = new L.Control.GeoSearch({
+	provider: new L.GeoSearch.Provider.OpenStreetMap()
+    }).addTo(map);
+       
+        
+});
+</script>
+</head>
+<body>
+<?php
+    $this->viewLayout('menu');
+?>
+<div id="showHookah" data-toggle="tooltip" data-placement="right" title="кальянные">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<?php
+    $this->viewLayout('index/main_user_interface',array("cur_city"=>$view["city"]["city"]["city"],"cities"=>$view["cities"],"category"=>$view["category_org"],"zav"=>$view["city"]["zav"]));
+?>
+<div id="map" style="position: fixed;width: 100%;height: 100%;"></div>
+<script type="text/javascript">
+var hookah = new hii();
+</script>

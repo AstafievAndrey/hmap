@@ -1,0 +1,138 @@
+#phone_menu{
+    cursor: pointer;
+    position: fixed;
+    width:32px;
+    z-index: 99999;
+    background: #BE504E;
+    top:10px;
+    left:10px;
+    border-radius: 2px;
+}
+#phone_menu:hover{
+    background: grey;
+    transition: 0.4s;
+}
+#phone_menu:hover .sp_line{
+    background: #F25F5C;
+}
+.sp_line{
+    background: rgb(121, 101, 101);
+    display: block;
+    height: 2px;
+    margin: 4px 4px;
+    border-radius: 1px;
+}
+.main_user_interface{
+    width: 300px;
+    position: fixed;
+    z-index: 9999999;
+    top:50px;
+    background: #232A34;
+    border-radius: 0px 0px 0px 0px;
+    color:#ccc;
+}
+#hookah_container{
+    overflow: auto;
+}
+#parametrs_sorting{
+    background: rgba(128, 128, 128, 0.84);
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    display: none;
+}
+.parametrs_sort_name{
+    float: left; 
+    width: 30%;
+    padding: 14px 0px 0px 5px;
+}
+.parametrs_sort_select{
+    float: left;
+    width: 70%;
+}
+#hookah_container .row{
+    margin: 0 0 1px;
+    //padding: 5px 20px 4px 40px;
+    box-shadow: 0 0 0 1px #ededed;
+}
+.select{
+    background: grey;
+    color:white;
+    margin: 10px 0px 0px;
+}
+.sortShHd{
+    background: grey;
+    color: white;
+}
+.company{
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 10px;
+    display: block;
+}
+.adress{
+    display: block;
+    padding-top: 10px;
+    font-weight: 200;
+}
+.adress a{
+    float: right;
+    color:#F25F5C;
+}
+.caliano:hover{
+    background: #2D3E50;
+    cursor: pointer;
+}
+@media(max-width:768px){
+    .main_user_interface{
+        width: 100%;
+    }
+}
+.spinner {
+  margin: 100px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  
+  -webkit-animation: sk-rotate 2.0s infinite linear;
+  animation: sk-rotate 2.0s infinite linear;
+}
+
+.dot1, .dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #333;
+  border-radius: 100%;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}

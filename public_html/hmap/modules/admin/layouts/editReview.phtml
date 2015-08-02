@@ -1,0 +1,35 @@
+<div class="modal fade" id="editReviewModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Редактировать Отзыв</h4>
+            </div>
+            <form id="formAddAlbum" method="post" action="javascript:void(null);" onsubmit="admin.showEditModalReview.clickBtn()">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            От кого
+                        </div>
+                        <div class="col-md-9 col-sm-9 col-xs-9">
+                            <input type="hidden" name="review_id" id="review_id">
+                            <input type="text" class="form-control" name="edit_from_review" id="edit_from_review" required>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 20px;">
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            Текст
+                        </div>
+                        <div class="col-md-9 col-sm-9 col-xs-9">
+                            <textarea class="form-control" name="edit_text_review" id="edit_text_review" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                    <button id="submitEditReviewModal" type="submit" class="btn btn-primary">Редактировать</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

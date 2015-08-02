@@ -1,0 +1,9 @@
+<?php
+for($i=0;$i<count($layout_params);$i++){
+    echo "<div class='row hplace'>";
+    echo"<div class='col-sm-2'><img class='img-responsive' src='../../../../resourses/uploads/images/".$layout_params[$i]["img_name"]."'></div>";
+    echo"<div class='col-sm-6'><h3>".$layout_params[$i]["name"]."</h3></div>";
+    echo"<div class='col-sm-2'><a href='/owner/shop/edit?org_id=".$layout_params[$i]["org_id"]."' class='btn btn-primary'>Редактировать</a></div>";
+    echo"<div class='col-sm-2'><a class='btn btn-danger' data-id='".$layout_params[$i]["org_id"]."'>Удалить</a></div>";
+    echo "</div>";
+}

@@ -1,0 +1,14 @@
+<?php
+
+echo "<h1>Error ".$params."</h1>";
+
+echo "<h3>Message : </h3>".$mes;
+
+echo "<br><br><br>";
+
+echo "<table border=1>";
+	echo "<tr><td> # <td>file<td>line<td>function<td>class<td>type<td>args<td>object</tr>";
+foreach ($mas as $key=>$value) {
+	echo "<tr><td>".$key."<td>".$value['file']."<td>".$value['line']."<td>".$value['function']."<td>".$value['class']."<td>".$value['type']."<td>".$value['args']."<td>".$value['obj']."</tr>";
+}
+echo "</table>";

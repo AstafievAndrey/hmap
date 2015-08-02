@@ -1,0 +1,76 @@
+<?php
+$this->viewLayout('head_map');
+$this->viewLayout('map/addCottage');
+$this->viewLayout('map/editCottage');
+?>
+<script src="../../../../resourses/public/js/l.control.geosearch.js"></script>
+<script src="../../../../resourses/public/js/l.geosearch.provider.openstreetmap.js"></script>
+<link rel="stylesheet" href="../../../../resourses/public/css/l.geosearch.css" />
+<script>
+$(document).ready(function(){
+    window.map = L.map('map',{ zoomControl: false }).setView([55.78043, 49.12399], 11);
+    try{
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        
+    }
+    catch(e){
+        L.tileLayer('http://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://www.opencyclemap.org">OpenCycleMap</a>, &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+    }
+    
+    map.on("click", function(e){
+        land_admin.drawroutes(e);
+    });
+    
+    land_admin.ctrl_z();
+    
+    new L.Control.GeoSearch({
+        provider: new L.GeoSearch.Provider.OpenStreetMap()
+    }).addTo(map);
+    
+});
+</script>
+</head>
+<body>
+    <div id="actions">
+        <div class="my_btn" onclick="land_admin.show_modal('#addCottage');" style="padding: 10px; margin:10px;text-align: center;cursor:pointer;">Добавить поселок</div>
+        <div class="my_btn" onclick="land_admin.show_list_cottage();"style="padding: 10px; margin:10px;text-align: center;cursor:pointer;">Список поселков</div>
+    </div>
+<div id="map"></div>
+<div id="table">
+    <div style="display:block; height:30px;">
+	<div onclick="land_admin.click_close(this)" style="float:right;margin:5px;cursor:pointer;height:10px;">
+	    &times;
+	</div>
+    </div>
+    <div id="size">
+	<table id="list_cottage" class="table table-striped">
+	    <tbody>
+		<tr>
+		    <td style="padding:15px;">Радужный</td>
+		    <td>
+			<div class="btn btn-primary">
+			    редактировать
+			</div>
+		    </td>
+		    <td>
+			<div class="btn btn-danger">
+			    удалить
+			</div>
+		    </td>
+		</tr>
+	    </tbody>
+	</table>
+    </div>
+</div>
+<link href="../../../../resourses/dist/summernote.css" rel="stylesheet">
+<script src="../../../../resourses/dist/summernote.min.js"></script>
+<script src="../../../../resourses/js/bootstrap.min.js"></script>
+<script>
+
+</script>
+</body>
+</html>

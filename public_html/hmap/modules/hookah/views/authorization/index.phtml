@@ -1,0 +1,45 @@
+<?php
+$this->viewLayout("head");
+?>
+<title>Авторизация</title>
+<script src="../../../../resourses/hookah/js/hookah-authorization-index/hai.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script type="text/javascript">
+var h_auth = new hai();
+$(document).ready(function(){
+    
+});
+</script>
+<style type="text/css">
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+	border-radius: 0px !important;
+	background: #EBEBEB;
+    }
+    a{
+	color: #70C1B3;
+    }
+</style>
+</head>
+<body style="background-color: #f3f3f3;">
+<?php
+    $this->viewLayout('menu');
+    $this->viewLayout('auth/reestablish');
+    /*if($view["auth"]!==false){
+	?>
+	    <div class="container">
+		<div class="row" style="margin-top: 30px;font-size: 16px;">
+		    <div class="col-sm-3">
+			<a href="#" class="btn btn-primary">Перейти в личный кабинет</a>
+		    </div>
+		    <div class="col-sm-1">
+			<a href="/hookah/authorization/exitAuth" class="btn btn-primary">Выйти</a>
+		    </div>
+		</div>
+	    </div>
+	<?php
+    }else{*/
+	$this->viewLayout("auth/enter");
+    //}
+?>
+
+

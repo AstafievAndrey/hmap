@@ -1,0 +1,93 @@
+<div id="phone_menu" onclick="hookah.show_or_hide('.main_user_interface')" data-toggle="tooltip" data-placement="right" title="Список Кальянных">
+    <span class="sp_line"></span>
+    <span class="sp_line"></span>
+    <span class="sp_line"></span>
+    <span class="sp_line"></span>
+</div>
+
+<div class="main_user_interface">
+    <div class="head" style="height: 30px;border-top: 1px solid #f25f5c;border-bottom: 1px solid #F25F5C;">
+	<div class="close" onclick="hookah.hide('.main_user_interface')" style="text-shadow: none;font-size:14px;  margin:5px; color:#f25f5c;opacity: 0.8;">
+	    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+	</div>
+    </div>
+    <div>
+	<div style="margin: 10px;">
+	    <input onkeyup="hookah.searchByName(this)" type="text" style="cursor: url('../../../resourses/hookah/css/cursor.cur'), auto;color:white;margin:10px 0px;background: grey;" class="form-control" placeholder="Поиск по названию" />
+	</div>
+    </div>
+    <div>
+	<div style="margin: 10px;">
+	    <select  name="city" id="city" onchange="hookah.selectCity();" class="form-control select">
+		<?php
+		    for($i=0;$i<count($layout_params["cities"]);$i++){
+			if((int)$layout_params["cities"][$i]["city_id"]==(int)$layout_params["cur_city"]["id"]){
+			    echo "<option selected data-city-id='".$layout_params["cities"][$i]["city_id"]."' value='".$layout_params["cities"][$i]["city_id"]."'>".$layout_params["cities"][$i]["name_ru"]."</option>";
+			}else{
+			    echo "<option data-city-id='".$layout_params["cities"][$i]["city_id"]."' value='".$layout_params["cities"][$i]["city_id"]."'>".$layout_params["cities"][$i]["name_ru"]."</option>";
+			}
+		    }
+		?>
+	    </select>
+	</div>
+    </div>
+    <div style="cursor: pointer;background:#8C4544;padding: 5px 10px;font-size: 16px;font-weight: 300;">
+	Сортировка
+	<button onclick="hookah.show_hide_parametrs()" class="btn btn-default sortShHd">Показать</button>
+    </div>
+    <div id="parametrs_sorting" style="">
+	<div style="margin:10px;">
+	    <div class="parametrs_sort_name">Заведение</div>
+	    <div class="parametrs_sort_select">
+		<select name="zaved" id="zaved" class="form-control select">
+		    <option data-cat-id="0" value="0">Все</option>
+		    <?php
+			for($i=0;$i<count($layout_params["category"]);$i++){
+			    echo "<option data-cat-id='".$layout_params["category"][$i]["id"]."' value='".$layout_params["category"][$i]["id"]."'>".$layout_params["category"][$i]["name"]."</option>";
+			}
+		    ?>
+		</select>
+	    </div>
+	</div>
+	<div style="margin:10px;">
+	    <div class="parametrs_sort_name">Цена</div>
+	    <div class="parametrs_sort_select">
+		<select name="price" id="price" class="form-control select">
+		    <option value="0">Любая</option>
+		    <option value="1">Дороже</option>
+		    <option value="2">Дешевле</option>
+		</select>
+	    </div>
+	</div>
+	<div style="margin:10px;">
+	    <div class="parametrs_sort_name">Алкоголь</div>
+	    <div class="parametrs_sort_select">
+		<select name="alcohol" id="alcohol" class="form-control select">
+		    <option value="0">Все</option>
+		    <option value="1">Да</option>
+		    <option value="2">Нет</option>
+		</select>
+	    </div>
+	</div>
+    </div>
+    <div id="hookah_container">
+	<div class="spin" style="display: none;position: absolute; height: 100%; width: 100%;z-index: 9;background: rgba(255, 255, 255, 0.8);">
+	    <div class="spinner">
+		<div class="dot1"></div>
+		<div class="dot2"></div>
+	    </div>
+	</div>
+	<?php
+	    for($i=0;$i<count($layout_params["zav"]);$i++){
+		echo "<div class='row caliano' onclick='hookah.position(this)' data-ind='".$i."' data-id='".$layout_params["zav"][$i]["id"]."'>"
+			. "<div class='col-xs-12'>"
+			    . "<span class='company'>".$layout_params["zav"][$i]["name"]."</span>"
+			    . "<span class='adress'>".$layout_params["zav"][$i]["adress"].""
+				."<a href='#'>Подробнее</a>"
+			    . "</span>"
+			. "</div>"
+			. "</div>";
+	    }
+	?>
+    </div>  
+</div>

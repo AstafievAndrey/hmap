@@ -1,0 +1,64 @@
+<?php
+$this->viewLayout('head');
+?>
+<title>Заведения</title>
+<style type="text/css">
+    .hplace{
+	margin: 10px;
+	background:whitesmoke;
+	padding:10px;
+    }
+</style>
+</head>
+<body>
+<?php
+$this->viewLayout('head-menu',$view["owners"]["login"]);
+?> 
+<div class="container-fluid">
+    <div class="row">
+	<?php
+	    $this->viewLayout('side-bar-menu',$view["owners"]["login"]);
+	?>
+	<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	    <div class="row">
+		<div class="col-sm-2">
+		    <h4>Заведения</h4>
+		</div>
+		<div class="col-sm-1">
+		    <a href="/owner/shop/add" class="btn btn-primary">
+			Добавить
+		    </a>
+		</div>
+	    </div>
+	    <div>
+
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs" role="tablist">
+		  <li role="presentation" class="active">
+		      <a href="#active" aria-controls="active" role="tab" data-toggle="tab">Добавленные</a>
+		  </li>
+		  <li role="presentation">
+		      <a href="#moderation" aria-controls="moderation" role="tab" data-toggle="tab">На рассмотрении</a>
+		  </li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+		    <div role="tabpanel" class="tab-pane active" id="active">
+			<?php 
+			    $this->viewLayout("shop/active_true",$view["active_true"]);
+			?>
+		    </div>
+		    <div role="tabpanel" class="tab-pane" id="moderation">
+			<?php 
+			    $this->viewLayout("shop/active_false",$view["active_false"]);
+			?>
+		    </div>
+		</div>
+
+	    </div>
+	</div>
+    </div>
+</div>
+</body>
+</html>

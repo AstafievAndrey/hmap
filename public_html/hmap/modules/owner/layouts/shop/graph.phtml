@@ -1,0 +1,61 @@
+<table class="table table-condensed">
+    <thead>
+	<tr>
+	    <th>Понедельник</th>
+	    <th>Вторник</th>
+	    <th>Среда</th>
+	    <th>Четверг</th>
+	    <th>Пятница</th>
+	    <th>Суббота</th>
+	    <th>Воскресенье</th>
+	</tr>
+    </thead>
+    <tbody>
+	<tr>
+	<?php
+	    for($i=1;$i<8;$i++){
+		echo'<td>
+		    <div class="radio">
+			<label><input type="radio" class="optradio'.$i.'" checked value="1" name="optradio'.$i.'">Выходной</label>
+		    </div>
+		    <div class="radio">
+			<label><input type="radio" class="optradio'.$i.'" value="2" name="optradio'.$i.'">Круглосуточно</label>
+		    </div>
+		    <div class="radio">
+			<label><input type="radio" class="optradio'.$i.'" value="3" name="optradio'.$i.'">Время</label>
+		    </div>
+		</td>';
+	    }
+	?>
+	</tr>
+	<tr>
+	    <?php
+		for($j=1;$j<8;$j++){
+	    ?>
+		<td>
+		    <div>От:
+			<select name="work_b_<?php echo $j;?>" id="work_b_<?php echo $j;?>" class="form-control">
+			    <?php
+				for($i=1;$i<25;$i++){
+				    echo "<option  value='$i'>$i</option>";
+				}
+			    ?>
+			</select>
+		    </div>
+		    <div>
+			До:
+			<select name="work_e_<?php echo $j;?>" id="work_e_<?php echo $j;?>" class="form-control">
+			    <?php
+				for($i=1;$i<25;$i++){
+				    echo "<option value='$i'>$i</option>";
+				}
+			    ?>
+			</select>
+		    </div>
+		</td>
+	    <?php
+		}
+	    ?>
+	</tr>
+    </tbody>
+</table>

@@ -1,0 +1,45 @@
+<?php
+$this->viewLayout('head');
+?>
+<title>Редактирование организации</title>
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+<link href="../../../../resourses/public/css/fileUploadView.css" rel="stylesheet">
+<link href="../../../../resourses/owner/dist/summernote.css" rel="stylesheet">
+<script src="../../../../resourses/owner/dist/summernote.min.js"></script>
+<style type="text/css">
+    .alert{
+	display:none;
+    }
+</style>
+<script type="text/javascript">
+    $(document).ready(function() {
+	$('#summernote').summernote({
+	    height: 500,
+	});
+    });
+</script>
+</head>
+<body>
+<?php
+$this->viewLayout('head-menu',$view["user"]["login"]);
+?> 
+<div class="container-fluid">
+    <div class="row">
+	<?php
+	    $this->viewLayout('side-bar-menu',$view["user"]["login"]);
+	?>
+	<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	    <div class="row">
+		<div class="col-sm-4">
+		    <h4>Редактирование</h4>
+		</div>
+	    
+		<?php
+		    $this->viewLayout("shop/form",$view["cities"]);
+		?>
+	    </div>
+	</div>
+    </div>
+</div>
+</body>
+</html>

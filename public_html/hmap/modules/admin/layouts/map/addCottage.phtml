@@ -1,0 +1,76 @@
+<div class="MapModule" id="addCottage">
+    <div style="text-align: right;border-bottom: 1px solid grey;">
+        <span onclick="land_admin.click_close(this);land_admin.clearMap();" style="padding: 10px; font-size: 20px;cursor: pointer;">&times;</span>
+    </div>
+    <form method="post" onsubmit="land_admin.add_cottage(); return false;">
+	<table>
+	    <tbody>
+		<tr>
+		    <td>Название</td>
+		    <td>
+			<input id="name_cottage" class="input" type="text" required="">
+		    </td>
+		</tr>
+		<tr>
+		    <td>Город</td>
+		    <td>
+			<select id="city_cottage">
+			</select>
+		    </td>
+		</tr>
+		<tr>
+		    <td>Водные объекты</td>
+		    <td>
+			<select id="waterbody_cottage">
+			    <option value="0">Нет</option>
+			    <option value="1">Да</option>
+			</select>
+		    </td>
+		</tr>
+		<tr>
+		    <td>Лес, парк</td>
+		    <td >
+			<select id="forest_cottage">
+			    <option value="0">Нет</option>
+			    <option value="1">Да</option>
+			</select>
+		    </td>
+		</tr>
+		<tr>
+		    <td>Цена за сотку</td>
+		    <td><input id="price_cottage" class="input" type="text" required=""></td>
+		</tr>
+		<tr>
+		    <td>Email</td>
+		    <td>
+			<input id="email_cottage" class="input"  required="">
+		    </td>
+		</tr>
+		<tr>
+		    <td>Сайт</td>
+		    <td>
+			<input id="site_cottage" class="input" type="text" required="">
+		    </td>
+		</tr>
+		<tr>
+		    <td>Телефон</td>
+		    <td>
+			<input id="phone_cottage" class="input" type="text" required="">
+		    </td>
+		</tr>
+		<tr>
+		    <td>О Коттедже</td>
+		</tr>
+		<tr>
+		    <td colspan="2">
+			<textarea style="width: 400px; height:300px;" id="about_cottage"></textarea>
+		    </td>
+		</tr>
+	    </tbody>
+	</table>
+	<div style="text-align: center;border-top: 1px solid grey;">
+	    <input class="my_btn" type="submit"  style="cursor: pointer;width: 100%;border: none;font-size: 18px;padding: 10px;">
+	</div>
+    </form>
+</div>
+

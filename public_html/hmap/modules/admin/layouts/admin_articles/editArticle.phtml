@@ -1,0 +1,64 @@
+<div class="modal fade" id="editArticleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Редактировать статью</h4>
+            </div>
+            <form id="formAddAlbum" method="post" action="javascript:void(null);" onsubmit="admin.showEditModalArticle.clickBtn()">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <div id="selectImageAlbum" onclick="admin.previewImage()" class="btn btn-primary">
+                                Изображения
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            Главное Изображение
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <select id="editSelectMainArticle" class="form-control">
+                                
+                            </select>
+                        </div>
+                        <div id="editImageArticle"  class="col-md-3 col-sm-3 col-xs-3">
+                            
+                        </div>
+                    </div>
+                    <div class="row" style='margin-top: 20px;'>
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <p>Название Статьи</p>
+                            <input type="hidden" id="edit_id_article">
+                        </div>
+                        <div class="col-md-9 col-sm-9 col-xs-9">
+                            <input type="text" class="form-control" id="edit_name_article" placeholder="Введите название" required>
+                        </div>
+                    </div>
+                    <div class="row" style='margin-top: 20px;'>
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <p>Категории</p>
+                        </div>
+                        <div class="col-md-9 col-sm-9 col-xs-9">
+                            <select id="edit_category_article" name="category" class="form-control" multiple>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row" style='margin-top: 20px;'>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <p>Текст</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <textarea id="edit_text_article"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                    <button id="submitArticleModal" type="submit" class="btn btn-primary">Редактировать</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

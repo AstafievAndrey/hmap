@@ -1,0 +1,105 @@
+<div class="container">
+    <div class="row" style="margin-top: 40px;">
+	<div class="col-sm-12">
+	    
+	    <ul class="nav nav-tabs" role="tablist">
+		<li role="presentation" class="active">
+		    <a href="#enter" aria-controls="enter" role="tab" data-toggle="tab">
+			Войти
+		    </a>
+		</li>
+		<li role="presentation">
+		    <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+			Регистрация
+		    </a>
+		</li>
+	    </ul>
+	    <style>
+		.alert{
+		    display:none;
+		}
+	    </style>
+	    <div class="tab-content">
+		<div role="tabpanel" class="tab-pane active" id="enter">
+		    <div class="col-sm-5 col-sm-offset-1">
+			<form style="margin-top: 40px;" onsubmit="return h_auth.input(this);" method="post" class="form-horizontal">
+			    <div class="form-group">
+			      <label for="login" class="col-sm-2 control-label">Логин</label>
+			      <div class="col-sm-10">
+				  <input required type="login" name="login" class="form-control" id="login" placeholder="Логин">
+			      </div>
+			    </div>
+			    <div class="form-group">
+			      <label for="pass" class="col-sm-2 control-label">Password</label>
+			      <div class="col-sm-10">
+				  <input required type="password" name="password" class="form-control" id="pass" placeholder="Пароль">
+			      </div>
+			    </div>
+			    <div class="form-group">
+				<div class="col-sm-6">
+				    <a data-toggle="modal" data-target="#reestablish" href="#">Забыли логин или пароль?</a>
+				</div>
+			    </div>
+			    <div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+				  <button type="submit" class="btn btn-default">Войти</button>
+				</div>
+			    </div>
+			    <div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+				    <div class="alert alert-success" id="alert-enter-success" role="alert">...</div>
+				    <div class="alert alert-info" id="alert-enter-info" role="alert">...</div>
+				    <div class="alert alert-info" id="alert-enter-danger" role="alert">...</div>
+				</div>
+			    </div>
+			</form>
+		    </div>
+		</div>
+		<div role="tabpanel" class="tab-pane" id="profile">
+		    <div class="col-sm-5 col-sm-offset-1">
+			<form style="margin-top: 40px;" onsubmit="return h_auth.enter(this);" method="post" class="form-horizontal">
+			    <div class="form-group">
+			      <label for="login" class="col-sm-2 control-label">Логин</label>
+			      <div class="col-sm-10">
+				  <input required type="text" name="login" class="form-control" id="login" placeholder="Логин">
+			      </div>
+			    </div>
+			    <div class="form-group">
+			      <label for="email" class="col-sm-2 control-label">Email</label>
+			      <div class="col-sm-10">
+				  <input required type="email" name="email" class="form-control" id="email" placeholder="Email">
+			      </div>
+			    </div>
+			    <div class="form-group">
+			      <label for="pass" class="col-sm-2 control-label">Password</label>
+			      <div class="col-sm-10">
+				  <input required type="password" name="password" class="form-control" id="pass" placeholder="Пароль">
+			      </div>
+			    </div>
+			    <div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+				    <div class="g-recaptcha" data-sitekey="6LcBqQoTAAAAACeLNyiS5Dh5SZ71IHcr45OoW3fO"></div>
+				</div>
+			    </div>
+			    <div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+				  <button type="submit" class="btn btn-default">Зарегистрироваться</button>
+				</div>
+			    </div>
+			    <div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+				    <div class="alert alert-success" id="alert-reg-success" role="alert">...</div>
+				    <div class="alert alert-info" id="alert-reg-info" role="alert">...</div>
+				    <div class="alert alert-danger" id="alert-reg-danger" role="alert">...</div>
+				</div>
+			    </div>
+			</form>
+		    </div>
+		</div>
+	    </div>
+	</div>
+    </div>
+</div>
+<script type="text/javascript">
+
+</script>

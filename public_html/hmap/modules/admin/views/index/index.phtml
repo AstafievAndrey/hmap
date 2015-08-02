@@ -1,0 +1,80 @@
+<?php
+$this->viewLayout('head');
+$this->viewLayout('admin_image/addImage');
+$this->viewLayout('admin_image/editImage');
+$this->viewLayout('admin_image/previewImage');
+$this->viewLayout('admin_articles/editArticle');
+$this->viewLayout('admin_articles/addArticle');
+$this->viewLayout('load');
+?>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="mn"><a href="#">Панель администратора</a></div>
+    <div class="mn"><a href="/admin/index/exit">Выйти</a></div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3 col-md-2 sidebar">
+      <ul class="nav nav-sidebar">
+          <li><a href="#" onclick="admin.clearAdminContent();admin.getImages();">Изображения</a></li>
+          <li>
+              <a href="#" onclick="admin.clearAdminContent();admin.getArticlesCategory(this);" data-category='1'>Банки</a>
+          </li>
+          <li>
+              <a href="#" onclick="admin.clearAdminContent();admin.getArticlesCategory(this);" data-category='2'>Строительные компании</a>
+          </li>
+          <li><a href="/admin/map/index" target="_blank">Земля</a></li>
+	  <!--<li><a href="#" onclick="admin.clearAdminContent();admin.getAllMessages();">Сообщения</a></li>-->
+      </ul>
+    </div>
+    <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	<div id="adminContent" class="row">
+        </div>
+    </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="../../../../resourses/js/bootstrap.min.js"></script>
+<script src="../../../../resourses/js/admin/admin.js"></script>
+<script src="../../../../resourses/js/admin/admin_images.js"></script>
+<script src="../../../../resourses/js/admin/admin_category_articles.js"></script>
+<script src="../../../../resourses/js/admin/preview_image.js"></script>
+<script src="../../../../resourses/js/admin/admin_messages.js"></script>
+<link href="../../../../resourses/dist/summernote.css" rel="stylesheet">
+<script src="../../../../resourses/dist/summernote.min.js"></script>
+<script>
+    var admin = new Admin();
+    $('#text_article').summernote({ 
+        height: 300,
+        focus: true
+    });
+    
+    $('#edit_text_article').summernote({ 
+        height: 300,
+        focus: true
+    });
+    
+    //change select (layout)addArticle
+    admin.changeImageAddModalArticle();
+    //change select (layout)editArticle
+    admin.changeImageEditModalArticle();
+    
+    //show (layout)previewImage
+    $("#selectImageAlbum").on("click",function(){
+        admin.previewImage();
+    });
+    
+    //клик по боковой панели
+    $("#albums").on("click", function(){
+        admin.getAlbums();
+    });
+    
+    //показать форму создания альбома
+    $("#adminContent").on("click","#addAlbum", function(){
+        admin.showAddModalAlbum();
+    });
+</script>
+</body>
+</html>

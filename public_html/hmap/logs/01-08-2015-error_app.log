@@ -1,0 +1,658 @@
+
+
+------------Exeption------------
+time : 01:50:45
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:50:47
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:02:07
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:02:08
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:02:22
+message : NOT FOUND CLASS - /Applications/XAMPP/xamppfiles/htdocs/hmap/libs/controllers/CataloghookahController.php
+trace : 
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [57] , ['function'] : [is_callable] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{0 : controllers\CataloghookahController} , {1 : indexAction} , ] , ['object'] : []
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [34] , ['function'] : [init] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : hookah} , {2 : cataloghookah} , {3 : index} , {_controller_path : controllers\CataloghookahController} , {_controller_action : indexAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/hookah/views/cataloghookah/index.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : hookah} , {controller_name : cataloghookah} , {0 : /hookah/cataloghookah/index} , {action_name : index} , {default_module_name : hookah} , {_module_name : hookah} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/Controller.php] , ['line'] : [7] , ['function'] : [run] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : hookah} , {2 : cataloghookah} , {3 : index} , {_controller_path : controllers\CataloghookahController} , {_controller_action : indexAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/hookah/views/cataloghookah/index.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : hookah} , {controller_name : cataloghookah} , {0 : /hookah/cataloghookah/index} , {action_name : index} , {default_module_name : hookah} , {_module_name : hookah} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/hookah/autoload.module.php] , ['line'] : [24] , ['function'] : [run] , ['class'] : [MVC\Controller] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : hookah} , {2 : cataloghookah} , {3 : index} , {_controller_path : controllers\CataloghookahController} , {_controller_action : indexAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/hookah/views/cataloghookah/index.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : hookah} , {controller_name : cataloghookah} , {0 : /hookah/cataloghookah/index} , {action_name : index} , {default_module_name : hookah} , {_module_name : hookah} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/index.php] , ['line'] : [10] , ['function'] : [require_once] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{0 : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/hookah/autoload.module.php} , ] , ['object'] : []
+
+
+------------Exeption------------
+time : 02:02:22
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:13:00
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:13:43
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:17:02
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:18:02
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:58:31
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:58:33
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:59:04
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:59:09
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:59:52
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:00:49
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:01:38
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:02:46
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:04:15
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:04:46
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:06:11
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:06:27
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:07:30
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:07:32
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:07:43
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:07:45
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:07:46
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:07:47
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:07:56
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:07:58
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:07:59
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:45:59
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:50:15
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:50:18
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:53:52
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:53:54
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:56:49
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:56:55
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:57:14
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:58:44
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:59:07
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:59:21
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:01:54
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:03:50
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:03:53
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:04:17
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:04:18
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:06:39
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:11:48
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:12:13
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:12:59
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:13:02
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:13:03
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:13:14
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:13:39
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:13:42
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:14:04
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:15:05
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:15:29
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:18:48
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:19:33
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:19:48
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:19:54
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:21:34
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:21:35
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:21:35
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:21:36
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:22:08
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:23:36
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:23:37
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:27:30
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:27:32
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:27:59
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:28:00
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:28:02
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:28:31
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:29:11
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:29:12
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:29:19
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:29:19
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:29:21
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:29:24
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:30:11
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:30:32
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:30:33
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:30:34
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:30:40
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:30:41
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:30:45
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:31:24
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:31:32
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:31:34
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:34:54
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:34:58
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:35:04
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:38:09
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:38:12
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:38:24
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:38:57
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:43:40
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:47:13
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:47:15
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:47:59
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:48:00
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:48:11
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:48:17
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:48:17
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 05:36:17
+message : Error: 404 Page not found
+trace : 

@@ -1,0 +1,1477 @@
+
+
+------------Exeption------------
+time : 10:42:15
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:42:16
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:42:17
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:42:18
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:42:19
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:42:19
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:42:20
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:42:42
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:43:32
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:43:34
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:43:42
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:47:45
+message : Error DataBase Connection: SQLSTATE[HY000] [1045] Access denied for user 'kueawici_hmap'@'localhost' (using password: YES)
+trace : 
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/Db/DbQuery.php] , ['line'] : [18] , ['function'] : [__construct] , ['class'] : [Db\Db] , ['type'] : [->] 
+ args : ['args'] : [{0 : hmap} , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , {*_pdo : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/hookah/model/IndexModel.php] , ['line'] : [17] , ['function'] : [__construct] , ['class'] : [Db\DbQuery] , ['type'] : [->] 
+ args : ['args'] : [{0 : hmap} , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , {*_pdo : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/hookah/controllers/IndexController.php] , ['line'] : [17] , ['function'] : [__construct] , ['class'] : [model\IndexModel] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{*fh : Resource id #16} , {*ip1c : } , {ver : 22} , {time : 1431006163} , {type : 3} , {charset : 0} , {b_idx_len : 224} , {m_idx_len : 1775} , {range : 956} , {db_items : 1697736} , {id_len : 3} , {max_region : 175} , {max_city : 119} , {region_size : 113052} , {city_size : 3078942} , {max_country : 147} , {country_size : 9393} , {pack_size : 157} , {regions_begin : 10194609} , {cities_begin : 10307661} , {*range : 956} , {*db_begin : 8193} , {*b_idx_str : rYUYZ`��a�d�e�چ݆ކ��\�t�@�t�u��������>}U}V}W�����������O�P�]�}��Ә��I�����	88=�=�K��|�}������������ц�O��)5�_����*A��Jd���>������o|��|�		c�	�
+5�
+��o��2l�՗$a���[6����
+3}j����#(%77E�E�MQ�n��)�1+;2DkN^Gf+v����7�T�S����0�0�1�2���te
+#�D=[� �%�(�0�2��2���2�A2�&2��2Î�2��2��:�:`-0:�`:��:�;^;�;��t>'t>160>A(>Q�>bo�>o��>z�>�P>��>�G>��>�->��>�=>�F>�a?Rj?c ?w?�?��?��?�x�?�X?��?�?��@$@Q@%@5�@=L@J�@V�@i�@w�@~�@��@��@�:H@�r�@�.p@���@��@�@��A�A�A�A&�A2�AC�AR߀A`xAj8AuA}�A��A�6AȚA��A�
+A��B	�B��B&�B1PBeFG�FR�FYFZ�F\�FfFn�F��F��F�F��F��F�gF�pG��G�G`G�G�:G%G&�G.�G3�G7��G)x�Wx�RyIR�y`�yyKy�y�z6�z@z�Uz�:z�z�{|7{ɟ|6|m�|�$|��|�B}"�}>�}�}N
+p����Y�+��˰�vꄧ@�'��d����W�Yo�\ɋ���_����Ҏ�p������$���5/�����3�����p�wە����`�� ̀�-��3v�=ǗB���Je��T��r�䲘G�#��(�t�9/�B����x�"�t�_����Ӣ���b��ɣν������z�������Ǫ�������
+ì���ȭn��	����q��:�������>�.��5�;*�?��E��Kk�P���W�o������­�65���e��4���'��?��D��������&:�����g����]��7����/�5��;~�E��[5�f��r�$��!��gԯ�'�����
+��s�,�CT��o��C�����ױh�&e�7�Pӱb�y��������������5���$V���KL�f �rk������n����Ļ�G�6��/l�9B�?�M��R�Wμc̀�h��mb��x��3��˼������w��H��N��B����\����"��2ϽD�LO�[�j�z���н�A��|��g��g��齪2��������֧��Ž�j�J� ��2}�W�p,����⾴��Ԫ��Ⱦ���T�#��=��Q0�_��pQ��?��I@������ ����0���$��5c�S��h��o���z�������������E��P���'�;�M��T�0�jc�{���§�º��������/���H��*f�:��Et�W&��kÄk�×â�÷t��*�ز`�����@�(H��6�WW�����- �>|�[P�n]Ɨ�Ƴ`��G������,I�K��e��}@ǯ�����������3�!x�)= �-���8��C�N� �`{�u�ȔXȺ���~�v�.��B��Oq�]4�i��y�ɋJɘ�ɯ�������c@��)��>���U!ʀP�ʛʴ��� �J�Q�*8�:�`���z�˙�˹���y�(�A�9\�V@�o�̀�̩@��������͎�ͧ��ȵ�������)%�C��d��~zΦjκ��������
+��#��=��Q|�i�w�ϑϪ Ϸ���������T��`���&D�1��AIx�Jm��Sy�[��e��f���k��{>��д������A��O�(��8`�N��c��vbц,�јe�ѥ�ѳS�����U����D�@�2�ҥ��҂���|A�����%��2���B��V��d���u`Ԃ�Ԝ�԰0�Զ���=��^A�������&���1i�=��I��U.P�U��a'�m �w�Ձ�ՑԐ՛�ի&շ�8�����u��,��h����$���1{��:8�D��R\�g?��s�؂sؐ\؟��ة�ض��õ�������������o���J@�' �,��I �S	�X��jy�q �{oى~ٖ{٤LٯZ��Gx���`����m���������"ڹ?���Z��o8�_6�Ҷ���q	�.�ާ�߾} , {*b_idx_arr : } , {*m_idx_arr : } , {*m_idx_len : 1775} , {*db_items : 1697736} , {*country_size : 9393} , {*db : } , {*regions_db : } , {*cities_db : } , {0 : } , {1 : AP} , {2 : EU} , {3 : AD} , {4 : AE} , {5 : AF} , {6 : AG} , {7 : AI} , {8 : AL} , {9 : AM} , {10 : CW} , {11 : AO} , {12 : AQ} , {13 : AR} , {14 : AS} , {15 : AT} , {16 : AU} , {17 : AW} , {18 : AZ} , {19 : BA} , {20 : BB} , {21 : BD} , {22 : BE} , {23 : BF} , {24 : BG} , {25 : BH} , {26 : BI} , {27 : BJ} , {28 : BM} , {29 : BN} , {30 : BO} , {31 : BR} , {32 : BS} , {33 : BT} , {34 : BV} , {35 : BW} , {36 : BY} , {37 : BZ} , {38 : CA} , {39 : CC} , {40 : CD} , {41 : CF} , {42 : CG} , {43 : CH} , {44 : CI} , {45 : CK} , {46 : CL} , {47 : CM} , {48 : CN} , {49 : CO} , {50 : CR} , {51 : CU} , {52 : CV} , {53 : CX} , {54 : CY} , {55 : CZ} , {56 : DE} , {57 : DJ} , {58 : DK} , {59 : DM} , {60 : DO} , {61 : DZ} , {62 : EC} , {63 : EE} , {64 : EG} , {65 : EH} , {66 : ER} , {67 : ES} , {68 : ET} , {69 : FI} , {70 : FJ} , {71 : FK} , {72 : FM} , {73 : FO} , {74 : FR} , {75 : SX} , {76 : GA} , {77 : GB} , {78 : GD} , {79 : GE} , {80 : GF} , {81 : GH} , {82 : GI} , {83 : GL} , {84 : GM} , {85 : GN} , {86 : GP} , {87 : GQ} , {88 : GR} , {89 : GS} , {90 : GT} , {91 : GU} , {92 : GW} , {93 : GY} , {94 : HK} , {95 : HM} , {96 : HN} , {97 : HR} , {98 : HT} , {99 : HU} , {100 : ID} , {101 : IE} , {102 : IL} , {103 : IN} , {104 : IO} , {105 : IQ} , {106 : IR} , {107 : IS} , {108 : IT} , {109 : JM} , {110 : JO} , {111 : JP} , {112 : KE} , {113 : KG} , {114 : KH} , {115 : KI} , {116 : KM} , {117 : KN} , {118 : KP} , {119 : KR} , {120 : KW} , {121 : KY} , {122 : KZ} , {123 : LA} , {124 : LB} , {125 : LC} , {126 : LI} , {127 : LK} , {128 : LR} , {129 : LS} , {130 : LT} , {131 : LU} , {132 : LV} , {133 : LY} , {134 : MA} , {135 : MC} , {136 : MD} , {137 : MG} , {138 : MH} , {139 : MK} , {140 : ML} , {141 : MM} , {142 : MN} , {143 : MO} , {144 : MP} , {145 : MQ} , {146 : MR} , {147 : MS} , {148 : MT} , {149 : MU} , {150 : MV} , {151 : MW} , {152 : MX} , {153 : MY} , {154 : MZ} , {155 : NA} , {156 : NC} , {157 : NE} , {158 : NF} , {159 : NG} , {160 : NI} , {161 : NL} , {162 : NO} , {163 : NP} , {164 : NR} , {165 : NU} , {166 : NZ} , {167 : OM} , {168 : PA} , {169 : PE} , {170 : PF} , {171 : PG} , {172 : PH} , {173 : PK} , {174 : PL} , {175 : PM} , {176 : PN} , {177 : PR} , {178 : PS} , {179 : PT} , {180 : PW} , {181 : PY} , {182 : QA} , {183 : RE} , {184 : RO} , {185 : RU} , {186 : RW} , {187 : SA} , {188 : SB} , {189 : SC} , {190 : SD} , {191 : SE} , {192 : SG} , {193 : SH} , {194 : SI} , {195 : SJ} , {196 : SK} , {197 : SL} , {198 : SM} , {199 : SN} , {200 : SO} , {201 : SR} , {202 : ST} , {203 : SV} , {204 : SY} , {205 : SZ} , {206 : TC} , {207 : TD} , {208 : TF} , {209 : TG} , {210 : TH} , {211 : TJ} , {212 : TK} , {213 : TM} , {214 : TN} , {215 : TO} , {216 : TL} , {217 : TR} , {218 : TT} , {219 : TV} , {220 : TW} , {221 : TZ} , {222 : UA} , {223 : UG} , {224 : UM} , {225 : US} , {226 : UY} , {227 : UZ} , {228 : VA} , {229 : VC} , {230 : VE} , {231 : VG} , {232 : VI} , {233 : VN} , {234 : VU} , {235 : WF} , {236 : WS} , {237 : YE} , {238 : YT} , {239 : RS} , {240 : ZA} , {241 : ZM} , {242 : ME} , {243 : ZW} , {244 : A1} , {245 : XK} , {246 : O1} , {247 : AX} , {248 : GG} , {249 : IM} , {250 : JE} , {251 : BL} , {252 : MF} , {253 : BQ} , {254 : SS} , {batch_mode : 0} , {memory_mode : 0} , {b_idx_len : 224} , {id_len : 3} , {block_len : 6} , {max_region : 175} , {max_city : 119} , {max_country : 147} , {0 : T:id/c2:iso/n2:lat/n2:lon/b:name_ru/b:name_en} , {1 : S:country_seek/M:id/b:name_ru/b:name_en/b:iso} , {2 : M:region_seek/T:country_id/M:id/N5:lat/N5:lon/b:name_ru/b:name_en} , {model\IndexModel_db : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [79] , ['function'] : [__construct] , ['class'] : [controllers\IndexController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{*post : } , {*auth : } , {controllers\IndexController_indModel : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [35] , ['function'] : [init_default] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : } , {_controller_path : controllers\IndexController} , {_controller_action : IndexAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/hookah/views/index/index.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=kueawici_hmap} , {db.user_hmap : kueawici_hmap} , {db.pass_hmap : 746dsgecr} , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : hookah} , {controller_name : index} , {0 : /} , {action_name : index} , {default_module_name : hookah} , {_module_name : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/Controller.php] , ['line'] : [7] , ['function'] : [run] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : } , {_controller_path : controllers\IndexController} , {_controller_action : IndexAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/hookah/views/index/index.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=kueawici_hmap} , {db.user_hmap : kueawici_hmap} , {db.pass_hmap : 746dsgecr} , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : hookah} , {controller_name : index} , {0 : /} , {action_name : index} , {default_module_name : hookah} , {_module_name : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/hookah/autoload.module.php] , ['line'] : [24] , ['function'] : [run] , ['class'] : [MVC\Controller] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : } , {_controller_path : controllers\IndexController} , {_controller_action : IndexAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/hookah/views/index/index.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=kueawici_hmap} , {db.user_hmap : kueawici_hmap} , {db.pass_hmap : 746dsgecr} , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : hookah} , {controller_name : index} , {0 : /} , {action_name : index} , {default_module_name : hookah} , {_module_name : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/index.php] , ['line'] : [10] , ['function'] : [require_once] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{0 : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/hookah/autoload.module.php} , ] , ['object'] : []
+
+
+------------Exeption------------
+time : 10:47:45
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:49:42
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:50:06
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:50:27
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:50:32
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:50:33
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:50:34
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 10:50:35
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:09:10
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:09:29
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:10:58
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:12:08
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:12:37
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:13:23
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:15:47
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:18:57
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:20:40
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:21:06
+message : Error: Action addOrgAction not found
+trace : 
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [34] , ['function'] : [init] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/Controller.php] , ['line'] : [7] , ['function'] : [run] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php] , ['line'] : [24] , ['function'] : [run] , ['class'] : [MVC\Controller] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/index.php] , ['line'] : [10] , ['function'] : [require_once] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{0 : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php} , ] , ['object'] : []
+
+
+------------Exeption------------
+time : 11:21:06
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:21:29
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:22:07
+message : Error: Action addOrgAction not found
+trace : 
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [34] , ['function'] : [init] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/Controller.php] , ['line'] : [7] , ['function'] : [run] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php] , ['line'] : [24] , ['function'] : [run] , ['class'] : [MVC\Controller] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/index.php] , ['line'] : [10] , ['function'] : [require_once] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{0 : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php} , ] , ['object'] : []
+
+
+------------Exeption------------
+time : 11:24:04
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:24:52
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:28:18
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:40:33
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:43:32
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:47:08
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 11:48:25
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:20:07
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:27:03
+message : Value isn't array
+trace : 
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/model/ShopModel.php] , ['line'] : [34] , ['function'] : [insert] , ['class'] : [Db\DbQuery] , ['type'] : [->] 
+ args : ['args'] : [{0 : organizations} , {1 : name=:name,city_id=:city,adress=:adress,lat=:lat,lon=:lon,category_id=:categ,alcohol=:alcohol,food=:food,veranda=:veranda,parking=:parking,text=:about} , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/controllers/ShopController.php] , ['line'] : [42] , ['function'] : [addHookah] , ['class'] : [model\ShopModel] , ['type'] : [->] 
+ args : ['args'] : [{0 : HookahPlace} , {1 : 551487} , {2 : Волкова, 70} , {3 : 55.78747095} , {4 : 49.1440645698518} , {5 : 1} , {6 : 1} , {7 : 1} , {8 : 0} , {9 : 0} , {10 : } , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [58] , ['function'] : [call_user_func] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{*post : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {1 : addOrgAction} , ] , ['object'] : []
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [34] , ['function'] : [init] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/Controller.php] , ['line'] : [7] , ['function'] : [run] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php] , ['line'] : [24] , ['function'] : [run] , ['class'] : [MVC\Controller] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/index.php] , ['line'] : [10] , ['function'] : [require_once] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{0 : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php} , ] , ['object'] : []
+
+
+------------Exeption------------
+time : 12:28:00
+message : Value isn't array
+trace : 
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/model/ShopModel.php] , ['line'] : [34] , ['function'] : [insert] , ['class'] : [Db\DbQuery] , ['type'] : [->] 
+ args : ['args'] : [{0 : organizations} , {1 : name=:name,city_id=:city,adress=:adress,lat=:lat,lon=:lon,category_id=:categ,alcohol=:alcohol,food=:food,veranda=:veranda,parking=:parking,text=:about} , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/controllers/ShopController.php] , ['line'] : [42] , ['function'] : [addHookah] , ['class'] : [model\ShopModel] , ['type'] : [->] 
+ args : ['args'] : [{0 : HookahPlace} , {1 : 551487} , {2 : Волкова, 70} , {3 : 55.78747095} , {4 : 49.1440645698518} , {5 : 1} , {6 : 1} , {7 : 1} , {8 : 0} , {9 : 0} , {10 : Hookah Place&nbsp;- проект московской команды JohnCalliano, плавно распространяющийся по крупным городам России. Hookah Place - это не только кальянная, но и кальянный магазин, в котором всегда можно купить что-то редкое и необычное, включая кальяны Temple и Kaya, наиболее популярные на данный момент.Мы посетили Хукаплейс в апреле 2014 года и сразу испытали дискомфорт от того, что без машины до него не так то легко добраться. Однако, попав внутрь, все негативные мысли улетучились и мы полностью прониклись духом этого заведения.Нам сделали интересный кальян на табаке Nakhla с использованием сиропов для придания цвета и вкуса. Так же нам позволили самим себе сделать одну чашку для пробы, всем понравилось.&nbsp;Здесь регулярно проводятся мастер-классы и дегустации с участием наиболее значимых людей в кальянной культуре России, в 2014 году здесь успели побывать многие именитые кальянные мастера с Москвы, Тулы и Петербурга.КальянЗдесь в основном используются египетские кальяны Khalil Mamoon и немецкие стеклянные кальяны Kaya. Всегда есть неплохой выбор табака, включая редкие для Казани табаки Tangiers и Afzal.Основная особенность хукаплейса - необычная система оплаты - вы платите за каждый час нахождения внутри, при этом получая за эти деньги 2 кальяна на свой стол. Однако, как показывает практика, через час Вас никто не выгонит и всегда можно найти общий язык с кальяниками, особенно при незаполненном заведении.&nbsp;Это место сделано со вкусом и позволяет расслабиться, не думая ни о чем. Советуем посетить Hookahplace в Казани, если вы хотите покурить хороший кальян в приятной и стильной атмосфере.} , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [58] , ['function'] : [call_user_func] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{*post : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {1 : addOrgAction} , ] , ['object'] : []
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [34] , ['function'] : [init] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/Controller.php] , ['line'] : [7] , ['function'] : [run] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php] , ['line'] : [24] , ['function'] : [run] , ['class'] : [MVC\Controller] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/index.php] , ['line'] : [10] , ['function'] : [require_once] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{0 : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php} , ] , ['object'] : []
+
+
+------------Exeption------------
+time : 12:30:09
+message : Value isn't array
+trace : 
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/model/ShopModel.php] , ['line'] : [34] , ['function'] : [insert] , ['class'] : [Db\DbQuery] , ['type'] : [->] 
+ args : ['args'] : [{0 : organizations} , {1 : name=:name,city_id=:city,adress=:adress,lat=:lat,lon=:lon,category_id=:categ,alcohol=:alcohol,food=:food,veranda=:veranda,parking=:parking,text=:about} , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/controllers/ShopController.php] , ['line'] : [42] , ['function'] : [addHookah] , ['class'] : [model\ShopModel] , ['type'] : [->] 
+ args : ['args'] : [{0 : HookahPlace} , {1 : 551487} , {2 : Волкова, 70} , {3 : 55.78747095} , {4 : 49.1440645698518} , {5 : 1} , {6 : 1} , {7 : 1} , {8 : 0} , {9 : 0} , {10 : Hookah Place&nbsp;- проект московской команды JohnCalliano, плавно распространяющийся по крупным городам России. Hookah Place - это не только кальянная, но и кальянный магазин, в котором всегда можно купить что-то редкое и необычное, включая кальяны Temple и Kaya, наиболее популярные на данный момент.Мы посетили Хукаплейс в апреле 2014 года и сразу испытали дискомфорт от того, что без машины до него не так то легко добраться. Однако, попав внутрь, все негативные мысли улетучились и мы полностью прониклись духом этого заведения.Нам сделали интересный кальян на табаке Nakhla с использованием сиропов для придания цвета и вкуса. Так же нам позволили самим себе сделать одну чашку для пробы, всем понравилось.&nbsp;Здесь регулярно проводятся мастер-классы и дегустации с участием наиболее значимых людей в кальянной культуре России, в 2014 году здесь успели побывать многие именитые кальянные мастера с Москвы, Тулы и Петербурга.КальянЗдесь в основном используются египетские кальяны Khalil Mamoon и немецкие стеклянные кальяны Kaya. Всегда есть неплохой выбор табака, включая редкие для Казани табаки Tangiers и Afzal.Основная особенность хукаплейса - необычная система оплаты - вы платите за каждый час нахождения внутри, при этом получая за эти деньги 2 кальяна на свой стол. Однако, как показывает практика, через час Вас никто не выгонит и всегда можно найти общий язык с кальяниками, особенно при незаполненном заведении.&nbsp;Это место сделано со вкусом и позволяет расслабиться, не думая ни о чем. Советуем посетить Hookahplace в Казани, если вы хотите покурить хороший кальян в приятной и стильной атмосфере.} , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [58] , ['function'] : [call_user_func] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{*post : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {1 : addOrgAction} , ] , ['object'] : []
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [34] , ['function'] : [init] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/Controller.php] , ['line'] : [7] , ['function'] : [run] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php] , ['line'] : [24] , ['function'] : [run] , ['class'] : [MVC\Controller] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/index.php] , ['line'] : [10] , ['function'] : [require_once] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{0 : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php} , ] , ['object'] : []
+
+
+------------Exeption------------
+time : 12:30:15
+message : Value isn't array
+trace : 
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/model/ShopModel.php] , ['line'] : [34] , ['function'] : [insert] , ['class'] : [Db\DbQuery] , ['type'] : [->] 
+ args : ['args'] : [{0 : organizations} , {1 : name=:name,city_id=:city,adress=:adress,lat=:lat,lon=:lon,category_id=:categ,alcohol=:alcohol,food=:food,veranda=:veranda,parking=:parking,text=:about} , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/controllers/ShopController.php] , ['line'] : [42] , ['function'] : [addHookah] , ['class'] : [model\ShopModel] , ['type'] : [->] 
+ args : ['args'] : [{0 : HookahPlace} , {1 : 551487} , {2 : Волкова, 70} , {3 : 55.78747095} , {4 : 49.1440645698518} , {5 : 1} , {6 : 1} , {7 : 1} , {8 : 0} , {9 : 0} , {10 : Hookah Place&nbsp;- проект московской команды JohnCalliano, плавно распространяющийся по крупным городам России. Hookah Place - это не только кальянная, но и кальянный магазин, в котором всегда можно купить что-то редкое и необычное, включая кальяны Temple и Kaya, наиболее популярные на данный момент.Мы посетили Хукаплейс в апреле 2014 года и сразу испытали дискомфорт от того, что без машины до него не так то легко добраться. Однако, попав внутрь, все негативные мысли улетучились и мы полностью прониклись духом этого заведения.Нам сделали интересный кальян на табаке Nakhla с использованием сиропов для придания цвета и вкуса. Так же нам позволили самим себе сделать одну чашку для пробы, всем понравилось.&nbsp;Здесь регулярно проводятся мастер-классы и дегустации с участием наиболее значимых людей в кальянной культуре России, в 2014 году здесь успели побывать многие именитые кальянные мастера с Москвы, Тулы и Петербурга.КальянЗдесь в основном используются египетские кальяны Khalil Mamoon и немецкие стеклянные кальяны Kaya. Всегда есть неплохой выбор табака, включая редкие для Казани табаки Tangiers и Afzal.Основная особенность хукаплейса - необычная система оплаты - вы платите за каждый час нахождения внутри, при этом получая за эти деньги 2 кальяна на свой стол. Однако, как показывает практика, через час Вас никто не выгонит и всегда можно найти общий язык с кальяниками, особенно при незаполненном заведении.&nbsp;Это место сделано со вкусом и позволяет расслабиться, не думая ни о чем. Советуем посетить Hookahplace в Казани, если вы хотите покурить хороший кальян в приятной и стильной атмосфере.} , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [58] , ['function'] : [call_user_func] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{*post : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {1 : addOrgAction} , ] , ['object'] : []
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [34] , ['function'] : [init] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/Controller.php] , ['line'] : [7] , ['function'] : [run] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php] , ['line'] : [24] , ['function'] : [run] , ['class'] : [MVC\Controller] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/index.php] , ['line'] : [10] , ['function'] : [require_once] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{0 : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php} , ] , ['object'] : []
+
+
+------------Exeption------------
+time : 12:30:54
+message : Value isn't array
+trace : 
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/model/ShopModel.php] , ['line'] : [34] , ['function'] : [insert] , ['class'] : [Db\DbQuery] , ['type'] : [->] 
+ args : ['args'] : [{0 : organizations} , {1 : name=:name,city_id=:city,adress=:adress,lat=:lat,lon=:lon,category_id=:categ,alcohol=:alcohol,food=:food,veranda=:veranda,parking=:parking,text=:about} , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/controllers/ShopController.php] , ['line'] : [42] , ['function'] : [addHookah] , ['class'] : [model\ShopModel] , ['type'] : [->] 
+ args : ['args'] : [{0 : HookahPlace} , {1 : 551487} , {2 : Волкова, 70} , {3 : 55.78747095} , {4 : 49.1440645698518} , {5 : 1} , {6 : 1} , {7 : 1} , {8 : 0} , {9 : 0} , {10 : Hookah Place&nbsp;- проект московской команды JohnCalliano, плавно распространяющийся по крупным городам России. Hookah Place - это не только кальянная, но и кальянный магазин, в котором всегда можно купить что-то редкое и необычное, включая кальяны Temple и Kaya, наиболее популярные на данный момент.Мы посетили Хукаплейс в апреле 2014 года и сразу испытали дискомфорт от того, что без машины до него не так то легко добраться. Однако, попав внутрь, все негативные мысли улетучились и мы полностью прониклись духом этого заведения.Нам сделали интересный кальян на табаке Nakhla с использованием сиропов для придания цвета и вкуса. Так же нам позволили самим себе сделать одну чашку для пробы, всем понравилось.&nbsp;Здесь регулярно проводятся мастер-классы и дегустации с участием наиболее значимых людей в кальянной культуре России, в 2014 году здесь успели побывать многие именитые кальянные мастера с Москвы, Тулы и Петербурга.КальянЗдесь в основном используются египетские кальяны Khalil Mamoon и немецкие стеклянные кальяны Kaya. Всегда есть неплохой выбор табака, включая редкие для Казани табаки Tangiers и Afzal.Основная особенность хукаплейса - необычная система оплаты - вы платите за каждый час нахождения внутри, при этом получая за эти деньги 2 кальяна на свой стол. Однако, как показывает практика, через час Вас никто не выгонит и всегда можно найти общий язык с кальяниками, особенно при незаполненном заведении.&nbsp;Это место сделано со вкусом и позволяет расслабиться, не думая ни о чем. Советуем посетить Hookahplace в Казани, если вы хотите покурить хороший кальян в приятной и стильной атмосфере.} , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [58] , ['function'] : [call_user_func] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{*post : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {1 : addOrgAction} , ] , ['object'] : []
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [34] , ['function'] : [init] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/Controller.php] , ['line'] : [7] , ['function'] : [run] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php] , ['line'] : [24] , ['function'] : [run] , ['class'] : [MVC\Controller] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/index.php] , ['line'] : [10] , ['function'] : [require_once] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{0 : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php} , ] , ['object'] : []
+
+
+------------Exeption------------
+time : 12:32:23
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:34:22
+message : Value isn't array
+trace : 
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/model/ShopModel.php] , ['line'] : [34] , ['function'] : [insert] , ['class'] : [Db\DbQuery] , ['type'] : [->] 
+ args : ['args'] : [{0 : organizations} , {1 : name=:name,city_id=:city,adress=:adress,lat=:lat,lon=:lon,category_id=:categ,alcohol=:alcohol,food=:food,veranda=:veranda,parking=:parking,text=:about} , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/controllers/ShopController.php] , ['line'] : [42] , ['function'] : [addHookah] , ['class'] : [model\ShopModel] , ['type'] : [->] 
+ args : ['args'] : [{0 : 0} , {1 : 0} , {2 : 0} , {3 : 0} , {4 : 0} , {5 : 0} , {6 : 0} , {7 : 0} , {8 : 0} , {9 : 0} , {10 : 0} , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [58] , ['function'] : [call_user_func] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{*post : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {1 : addOrgAction} , ] , ['object'] : []
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [34] , ['function'] : [init] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {1 : name=name&city_id=city&adress=adress&lat=54&lon=50&category_id=categ,alcohol=1&food=1&veranda=0parking=1&text=about} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/Controller.php] , ['line'] : [7] , ['function'] : [run] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {1 : name=name&city_id=city&adress=adress&lat=54&lon=50&category_id=categ,alcohol=1&food=1&veranda=0parking=1&text=about} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php] , ['line'] : [24] , ['function'] : [run] , ['class'] : [MVC\Controller] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {1 : name=name&city_id=city&adress=adress&lat=54&lon=50&category_id=categ,alcohol=1&food=1&veranda=0parking=1&text=about} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/index.php] , ['line'] : [10] , ['function'] : [require_once] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{0 : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php} , ] , ['object'] : []
+
+
+------------Exeption------------
+time : 12:34:22
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:34:47
+message : Value isn't array
+trace : 
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/model/ShopModel.php] , ['line'] : [34] , ['function'] : [insert] , ['class'] : [Db\DbQuery] , ['type'] : [->] 
+ args : ['args'] : [{0 : organizations} , {1 : name=:name,city_id=:city,adress=:adress,lat=:lat,lon=:lon,category_id=:categ,alcohol=:alcohol,food=:food,veranda=:veranda,parking=:parking,text=:about} , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/controllers/ShopController.php] , ['line'] : [42] , ['function'] : [addHookah] , ['class'] : [model\ShopModel] , ['type'] : [->] 
+ args : ['args'] : [{0 : name} , {1 : 0} , {2 : adress} , {3 : 54} , {4 : 50} , {5 : 0} , {6 : 0} , {7 : 1} , {8 : 0parking=1} , {9 : 0} , {10 : 0} , ] , ['object'] : [{_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [58] , ['function'] : [call_user_func] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{*post : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {1 : addOrgAction} , ] , ['object'] : []
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [34] , ['function'] : [init] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {1 : name=name&city_id=city&adress=adress&lat=54&lon=50&category_id=categ,alcohol=1&food=1&veranda=0parking=1&text=about} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/Controller.php] , ['line'] : [7] , ['function'] : [run] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {1 : name=name&city_id=city&adress=adress&lat=54&lon=50&category_id=categ,alcohol=1&food=1&veranda=0parking=1&text=about} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php] , ['line'] : [24] , ['function'] : [run] , ['class'] : [MVC\Controller] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {1 : name=name&city_id=city&adress=adress&lat=54&lon=50&category_id=categ,alcohol=1&food=1&veranda=0parking=1&text=about} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/index.php] , ['line'] : [10] , ['function'] : [require_once] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{0 : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php} , ] , ['object'] : []
+
+
+------------Exeption------------
+time : 12:34:47
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:37:52
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:39:41
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:43:26
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:43:41
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:43:42
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:43:43
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:44:32
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:46:22
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:46:24
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:46:25
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:46:44
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:49:12
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:49:13
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:49:14
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:50:08
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:50:09
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:50:10
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:50:10
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:50:19
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:53:47
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:53:48
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:53:48
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:53:49
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:53:49
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:53:56
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:54:31
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:54:52
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:58:13
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:58:14
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:58:15
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:58:15
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:58:16
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:58:16
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:58:17
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 12:58:18
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:02:30
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:02:32
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:02:33
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:02:35
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:03:04
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:03:41
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:04:08
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:04:09
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:04:14
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:04:19
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:04:20
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:04:21
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:05:07
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:05:08
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:05:58
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:07:42
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:07:43
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:08:33
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:08:34
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:08:35
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:13:05
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:13:06
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:13:07
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:13:08
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:13:08
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:13:50
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:13:51
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:14:38
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:14:53
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:14:54
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:14:55
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:14:55
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:14:55
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:14:56
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:14:56
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:14:56
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:14:56
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:14:57
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:14:57
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:14:57
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:14:57
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:14:57
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:15:20
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:15:21
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:15:21
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:15:33
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:15:33
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:15:34
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:15:54
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:15:54
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:15:55
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:15:55
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:15:55
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:15:56
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:16:08
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:16:52
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:16:53
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:16:53
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:16:54
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:17:24
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:18:10
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:19:23
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:22:14
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:22:16
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:22:16
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:22:17
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:26:45
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:27:31
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:28:14
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:28:35
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:28:57
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:29:05
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:29:06
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:29:06
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:29:13
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:29:25
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:29:27
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:29:38
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:29:43
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:29:53
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:29:55
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:30:20
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:30:37
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:30:38
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:30:43
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:31:02
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:31:20
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:31:31
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:55:27
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:55:28
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:56:01
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:56:02
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:56:14
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:56:25
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:56:57
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:56:58
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:56:59
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:57:10
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:57:42
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:57:44
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:57:44
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:57:51
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:58:02
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:58:03
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:58:04
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:58:05
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:58:05
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:58:21
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:58:32
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:58:33
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:58:34
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:58:35
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:59:16
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 01:59:28
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:00:37
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:01:47
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:04:19
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:14:28
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:14:29
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:14:30
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:20:37
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:24:32
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:39:34
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:41:24
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 02:42:53
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:23:08
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:32:37
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:39:52
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 03:58:54
+message : Error: 404 Page not found
+trace : 
+
+
+------------Exeption------------
+time : 04:11:00
+message : Field isn't array
+trace : 
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/model/ShopModel.php] , ['line'] : [33] , ['function'] : [insert] , ['class'] : [Db\DbQuery] , ['type'] : [->] 
+ args : ['args'] : [{0 : images} , {1 : name} , {2 : :nm} , ] , ['object'] : [{_sql : select LAST_INSERT_ID() as id} , {*_db : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/model/ShopModel.php] , ['line'] : [45] , ['function'] : [insertImg] , ['class'] : [model\ShopModel] , ['type'] : [->] 
+ args : ['args'] : [{0 : } , ] , ['object'] : [{_sql : select LAST_INSERT_ID() as id} , {*_db : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {0 : jpg} , {1 : png} , {2 : jpeg} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/model/ShopModel.php] , ['line'] : [72] , ['function'] : [setMainOrgImage] , ['class'] : [model\ShopModel] , ['type'] : [->] 
+ args : ['args'] : [{0 : 189} , ] , ['object'] : [{_sql : select LAST_INSERT_ID() as id} , {*_db : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {0 : jpg} , {1 : png} , {2 : jpeg} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/controllers/ShopController.php] , ['line'] : [39] , ['function'] : [addHookah] , ['class'] : [model\ShopModel] , ['type'] : [->] 
+ args : ['args'] : [{0 : 1} , {1 : 1} , {2 : 1} , {3 : 44.6227148} , {4 : -1.1753424} , {5 : 1} , {6 : 1} , {7 : 1} , {8 : 0} , {9 : 0} , {10 : 213} , ] , ['object'] : [{_sql : select LAST_INSERT_ID() as id} , {*_db : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {0 : jpg} , {1 : png} , {2 : jpeg} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [58] , ['function'] : [call_user_func] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{*post : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : select LAST_INSERT_ID() as id} , {*_db : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {0 : jpg} , {1 : png} , {2 : jpeg} , {1 : addOrgAction} , ] , ['object'] : []
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [34] , ['function'] : [init] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/Controller.php] , ['line'] : [7] , ['function'] : [run] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php] , ['line'] : [24] , ['function'] : [run] , ['class'] : [MVC\Controller] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/index.php] , ['line'] : [10] , ['function'] : [require_once] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{0 : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php} , ] , ['object'] : []
+
+
+------------Exeption------------
+time : 04:11:31
+message : Field isn't array
+trace : 
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/model/ShopModel.php] , ['line'] : [33] , ['function'] : [insert] , ['class'] : [Db\DbQuery] , ['type'] : [->] 
+ args : ['args'] : [{0 : images} , {1 : name} , {2 : :nm} , ] , ['object'] : [{_sql : select LAST_INSERT_ID() as id} , {*_db : } , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/model/ShopModel.php] , ['line'] : [45] , ['function'] : [insertImg] , ['class'] : [model\ShopModel] , ['type'] : [->] 
+ args : ['args'] : [{0 : REOElsn4LiX1Zzh.jpg} , ] , ['object'] : [{_sql : select LAST_INSERT_ID() as id} , {*_db : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {0 : jpg} , {1 : png} , {2 : jpeg} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/model/ShopModel.php] , ['line'] : [72] , ['function'] : [setMainOrgImage] , ['class'] : [model\ShopModel] , ['type'] : [->] 
+ args : ['args'] : [{0 : 190} , ] , ['object'] : [{_sql : select LAST_INSERT_ID() as id} , {*_db : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {0 : jpg} , {1 : png} , {2 : jpeg} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/controllers/ShopController.php] , ['line'] : [39] , ['function'] : [addHookah] , ['class'] : [model\ShopModel] , ['type'] : [->] 
+ args : ['args'] : [{0 : 1} , {1 : 1} , {2 : 1} , {3 : 44.6227148} , {4 : -1.1753424} , {5 : 1} , {6 : 1} , {7 : 1} , {8 : 0} , {9 : 0} , {10 : 213} , ] , ['object'] : [{_sql : select LAST_INSERT_ID() as id} , {*_db : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {0 : jpg} , {1 : png} , {2 : jpeg} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [58] , ['function'] : [call_user_func] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{*post : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : } , {*_db : } , {*bindVal : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {_sql : select LAST_INSERT_ID() as id} , {*_db : } , {_sql : select *  from owners where login = :login and password = :pass and active=1} , {*_db : } , {0 : jpg} , {1 : png} , {2 : jpeg} , {1 : addOrgAction} , ] , ['object'] : []
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/AbstractController.php] , ['line'] : [34] , ['function'] : [init] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/libs/MVC/Controller.php] , ['line'] : [7] , ['function'] : [run] , ['class'] : [MVC\AbstractController] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php] , ['line'] : [24] , ['function'] : [run] , ['class'] : [MVC\Controller] , ['type'] : [->] 
+ args : ['args'] : [] , ['object'] : [{0 : } , {1 : owner} , {2 : shop} , {3 : addOrg} , {_controller_path : controllers\ShopController} , {_controller_action : addOrgAction} , {_controller_view : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/views/shop/addOrg.phtml} , {db.conn : mysql:host=localhost;dbname=kueawici_diplom} , {db.user : kueawici_second} , {db.pass : 746dsgecr} , {db.conn_hmap : mysql:host=localhost;dbname=hmap} , {db.user_hmap : root} , {db.pass_hmap : } , {db.conn_mssql : odbc:Driver=FreeTDS; Server=109.120.186.57; Port=1433; Database=Transport_Bugulma} , {db.user_mssql : bugulma} , {db.pass_mssql : bugulma} , {super.user : root} , {super.pass : 190892} , {application.display_errors : 1} , {application.trace_errors : 1} , {application.defaultModule : hookah} , {application.writelog : 1} , {application.writelog.trace : 1} , {modules.application.active : 1} , {modules.admin.active : 1} , {modules.owner.active : 1} , {modules.hookahmap.active : 1} , {modules.hookah.active : 1} , {modules.land.active : 1} , {module_name : owner} , {controller_name : shop} , {0 : /owner/shop/addOrg} , {action_name : addOrg} , {default_module_name : hookah} , {_module_name : owner} , ]
+['file'] : [/Applications/XAMPP/xamppfiles/htdocs/hmap/index.php] , ['line'] : [10] , ['function'] : [require_once] , ['class'] : [] , ['type'] : [] 
+ args : ['args'] : [{0 : /Applications/XAMPP/xamppfiles/htdocs/hmap/modules/owner/autoload.module.php} , ] , ['object'] : []

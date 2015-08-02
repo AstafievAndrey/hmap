@@ -1,0 +1,127 @@
+<form class="form-horizontal" onsubmit="return hookah.addOrg(this);">
+    <div class="form-group">
+	<div class="col-sm-12" style="background:whitesmoke;">
+	    <div><h3>График работы</h3></div>
+	    <?php
+		$this->viewLayout('shop/graph');
+	    ?>
+	</div>
+    </div>
+    <div class="form-group">
+	<label for="name" class="col-sm-2 control-label">Название</label>
+	<div class="col-sm-4">
+	    <input required type="text" name="name" class="form-control" id="name" placeholder="Название заведения">
+	</div>
+    </div>
+    <div class="form-group">
+	<label for="phone" class="col-sm-2 control-label">Телефон</label>
+	<div class="col-sm-4">
+	    <input required type="text" name="phone" class="form-control" id="phone" placeholder="Введите телефон">
+	</div>
+    </div>
+    <div class="form-group">
+	<label for="site" class="col-sm-2 control-label">Сайт</label>
+	<div class="col-sm-4">
+	    <input required type="text" name="site" class="form-control" id="site" placeholder="Укажите сайт или группу в ВК">
+	</div>
+    </div>
+    <div class="form-group">
+	<label for="city" class="col-sm-2 control-label">Город</label>
+	<div class="col-sm-4">
+	    <select class="form-control" name="city" id="city">
+		    <?php
+			for($i=0;$i<count($layout_params);$i++){
+			    echo "<option value='".$layout_params[$i]["city_id"]."'>".$layout_params[$i]["name_ru"]."</option>";
+			}
+		    ?>
+	    </select>
+	</div>
+	<div class="col-sm-6">
+	    *прежде чем вводить адрес убедитесть, что город выбран верно
+	</div>
+    </div>
+    <div class="form-group">
+	<label for="adress" class="col-sm-2 control-label">Адрес</label>
+	<div class="col-sm-4">
+	    <input required onblur="hookah.searchAdress(this);" type="text" name="adress" class="form-control" id="adress" placeholder="Адрес заведения">
+	    <input type="hidden" name="lat" id="lat">
+	    <input type="hidden" name="lon" id="lon">
+	</div>
+	<div class="col-sm-5">
+	    <div class="alert alert-info" id="alert-adress"></div>
+	</div>
+    </div>
+    <div class="form-group">
+	<label for="categ" class="col-sm-2 control-label">Категория</label>
+	<div class="col-sm-4">
+	    <select class="form-control" name="categ" id="categ">
+		    <option value="1">Кальянная</option>
+		    <option value="2">Магазин</option>
+		    <option value="3">Кафе с кальяном</option>
+	    </select>
+	</div>
+    </div>
+    <div class="form-group">
+	<label for="name" class="col-sm-2 control-label">Алкоголь</label>
+	<div class="col-md-1 col-sm-2">
+	    <select class="form-control" name="alcohol" id="alcohol">
+		    <option value="1">да</option>
+		    <option value="0">нет</option>
+	    </select>
+	</div>
+	<label for="food" class="col-sm-2 control-label">Еда</label>
+	<div class="col-md-1 col-sm-2">
+	    <select class="form-control" name="food" id="food">
+		    <option value="1">да</option>
+		    <option value="0">нет</option>
+	    </select>
+	</div>
+    </div>
+    <div class="form-group">
+	<label for="veranda" class="col-sm-2 control-label">Веранда</label>
+	<div class="col-md-1 col-sm-2">
+	    <select class="form-control" name="veranda" id="veranda">
+		    <option value="0">нет</option>
+		    <option value="1">да</option>
+	    </select>
+	</div>
+	<label for="parking" class="col-sm-2 control-label">Парковка</label>
+	<div class="col-md-1 col-sm-2">
+	    <select class="form-control" name="parking" id="parking">
+		    <option value="0">нет</option>
+		    <option value="1">да</option>
+	    </select>
+	</div>
+    </div>
+    <div class="form-group">
+	<div style="  font-weight: 700;margin:30px;">Описание</div>
+	<textarea name="about" id="summernote" style="height:500px;"></textarea>
+    </div>
+    <div class="form-group">
+	<div class="col-md-3 col-sm-4">
+	    <div class="fileUpload btn btn-info">
+		<span>Главное изображение</span>
+		<input required type="file" name="image" class="upload" accept="image/*"/>
+	    </div>
+	</div>
+	<div class="col-md-9 col-sm-8">
+	    Будьте внимательны добавленное сюда изображение будет использовать в качестве логитипа вашего заведения во многих местах на сайте. От его качества и внешнего вида будет зависить какое впечатление вы оставите о себе.
+	</div>
+    </div>
+    <div class="form-group">
+	<div class="col-md-3 col-sm-4">
+	    <div class="fileUpload btn btn-info">
+		<span>Изображения</span>
+		<input required type="file" name="images[]" class="upload" multiple accept="image/*"/>
+	    </div>
+	</div>
+	<div class="col-md-9 col-sm-8">
+	    Добавленные сюда изображения попадут в интерьер. Загрузите их в общую папку а затем разом добавьте их все. Максимальное количество <span style="color:red;">10 штук</span>, при загрузке большого числа остальные будут отброшены!
+	</div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-10" style="margin:30px;">
+	    <button type="submit" class="btn btn-primary">Добавить</button>
+      </div>
+    </div>
+</form>

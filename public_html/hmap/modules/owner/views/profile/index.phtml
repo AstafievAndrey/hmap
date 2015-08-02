@@ -1,0 +1,67 @@
+<?php
+$this->viewLayout('head');
+?>
+<title>Профиль</title>
+<script src="../../../../resourses/owner/js/owner-profile-index/opi.js"></script>
+<script type="text/javascript">
+var profile = new opi();
+</script>
+<style type="text/css">
+    .alert{
+	display: none;
+    }
+</style>
+</head>
+<body>
+<?php
+$this->viewLayout('head-menu',$view["login"]);
+?> 
+<div class="container-fluid">
+    <div class="row">
+	<div class="col-sm-3 col-md-2 sidebar">
+	    <?php
+		$this->viewLayout('side-bar-menu');
+	    ?>
+	</div>
+	<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+	    <h1 class="page-header">Профиль</h1>
+	    <div class="row">
+		<div class="col-sm-12">
+		    <form class="form-horizontal" onsubmit="return profile.saveProfile(this);">
+			<input type="hidden" name="id" value="<?php echo $view["id"];?>" />
+			<div class="form-group">
+			    <label for="name" class="col-sm-2 control-label">Имя</label>
+			    <div class="col-sm-5">
+				<input required value="<?php echo $view["name"];?>" type="text" class="form-control" name="name" id="name" placeholder="Имя">
+			    </div>
+			</div>
+			<div class="form-group">
+			    <label for="password" class="col-sm-2 control-label">Новый пароль</label>
+			    <div class="col-sm-5">
+				<input type="password" class="form-control" name="password" id="password" placeholder="Пароль">
+			    </div>
+			</div>
+			<div class="form-group">
+			    <label for="phone" class="col-sm-2 control-label">Телефон</label>
+			    <div class="col-sm-5">
+				<input required value="<?php echo $view["phone"];?>" type="number" class="form-control" name="phone" id="phone" placeholder="Телефон">
+			    </div>
+			</div>
+			<div class="form-group">
+			  <div class="col-sm-offset-2 col-sm-10">
+			    <button type="submit" class="btn btn-default">Сохранить</button>
+			  </div>
+			</div>
+			<div class="form-group">
+			  <div class=" col-sm-7">
+			    <div class="alert alert-info" id="profile-alert-info" role="alert">...</div>
+			  </div>
+			</div>
+		    </form>
+		</div>
+	    </div>
+      </div>
+    </div>
+</div>
+</body>
+</html>
