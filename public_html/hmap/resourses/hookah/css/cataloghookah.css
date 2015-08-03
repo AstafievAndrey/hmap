@@ -40,6 +40,10 @@ textarea:focus{ outline: none !important; }
 
 .control-hmap:focus{
   text-shadow: 0;
+  border: none;
+  outline: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 /* цвет placeholder */
