@@ -5,9 +5,14 @@ $this->viewLayout('head');
 <meta name="Keywords" content=""/>
 <title>Каталог кальянных</title>
 <link rel="stylesheet" type="text/css" href="../../../../resourses/hookah/css/cataloghookah.css">
+<link rel="stylesheet" href="../../../../resourses/hookah/css/cs-select.css" />
+<link rel="stylesheet" href="../../../../resourses/hookah/css/cs-skin-border.css" />
+<link rel="stylesheet" href="../../../../resourses/hookah/css/scrollbar.css">
+<link rel="stylesheet" href="../../../../resourses/hookah/css/ion.rangeSlider.css">
+<script src="../../../../resourses/hookah/js/ion.rangeSlider.min.js"></script>
 </head>
 <body>
-    
+       
     <div id="menu">
       <ul>
         <li><a href="">Карта</a></li>
@@ -21,10 +26,51 @@ $this->viewLayout('head');
       
       <div id="params">
         
-        <input type="text" class="form-control control-hmap" placeholder="Поиск по названию" />
-        <button class="btn btn-red">Параметры <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></button>
+        <div class="col-sm-10 col-xs-10">
+          <input type="text" class="form-control control-hmap" placeholder="Поиск по названию" />
+        </div>
+        <div class="col-sm-2 col-xs-2">
+          <button class="btn btn-red">Параметры <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></button>
+        </div>
+        <div class="clearfix"></div>
           
-        <div class="well">Список параметров для фильтрации...</div>
+        <div class="well">
+          
+          <div class="col-sm-3">
+            <select class="cs-select cs-skin-border">
+              <option value="" disabled selected>Выберите город</option>
+              <option value="1">Альметьевск</option>
+              <option value="2">Бугульма</option>
+              <option value="3">Казань</option>
+              <option value="4">Уфа</option>
+            </select>
+          </div>
+          
+          <div class="col-sm-3">
+            <div class="params-check">
+              <input type="checkbox" class="checkbox" id="checkbox-1" />
+              <label for="checkbox-1">Веранда</label>
+            </div>
+            <div class="params-check">
+              <input type="checkbox" class="checkbox" id="checkbox-2" />
+              <label for="checkbox-2">Парковка</label>
+              </div>
+            <div class="params-check">
+              <input type="checkbox" class="checkbox" id="checkbox-3" />
+              <label for="checkbox-3">Еда</label>
+              </div>
+            <div class="params-check">
+              <input type="checkbox" class="checkbox" id="checkbox-4" />
+              <label for="checkbox-4">Алкоголь</label>
+            </div>
+          </div>
+          
+          <div class="col-sm-3">
+            <input type="text" id="uislider" name="uislider" value="" />
+          </div>
+          
+          <div class="clearfix"></div>
+        </div>
         
       </div>
       
@@ -43,7 +89,7 @@ $this->viewLayout('head');
         <div class="post-img">
           <div class="post-rating">108</div>
           <div class="post-img-border">
-	      <img src="../../../../resourses/hookah/images/catalog/1.jpg" alt="Hookah Place Mansion" />
+            <img src="../../../../resourses/hookah/images/catalog/1.jpg" alt="Hookah Place Mansion" />
           </div>
         </div>
         <div class="post-content">
@@ -71,6 +117,10 @@ $this->viewLayout('head');
             В стенах Simon's царит исключительная дружеская атмосфера, где людей объединяет не только любовь к кальяну и хорошим, редким сортам чая, но и игровые приставки, настольные игры, регулярные тематические кинопоказы, спортивные трансляции.</p>
         </div>
         <div class="clearfix"></div>
+        <div class="post-button">
+          <a href="#">Посмотреть на карте</a>
+          <a href="#">Подробнее</a>
+        </div>
       </div>
       <div class="band"></div>
       
@@ -87,10 +137,62 @@ $this->viewLayout('head');
             Здесь регулярно проводят кинопоказы, а так же вечера живой музыки. Любителей кальяна ждут еженедельные дегустации и мастер-классы.</p>
         </div>
         <div class="clearfix"></div>
+        <div class="post-button">
+          <a href="#">Посмотреть на карте</a>
+          <a href="#">Подробнее</a>
+        </div>
       </div>
       <div class="band"></div>
       
+      <nav class="hmap-pag">
+        <ul class="pagination">
+          <li>
+            <a href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="active"><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li>
+            <a href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      
     </div>
     
+    <script src="../../../../resourses/hookah/js/scrollbar.min.js"></script>
+    <script>
+      (function($){
+        $(window).load(function(){
+          $(".cs-options").mCustomScrollbar();
+        });
+      })(jQuery);
+    </script>
+    <script src="../../../../resourses/hookah/js/classie.js"></script>
+    <script src="../../../../resourses/hookah/js/selectFx.js"></script>
+    <script>
+      (function() {
+        [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {	
+          new SelectFx(el);
+        } );
+      })();
+    </script>
+    <script>
+      $("#uislider").ionRangeSlider({
+        type: "double",
+        grid: true,
+        min: 300,
+        max: 5000,
+        from: 300,
+        to: 5000,
+        prefix: "₽"
+      });
+    </script>
   </body>
 </html>
